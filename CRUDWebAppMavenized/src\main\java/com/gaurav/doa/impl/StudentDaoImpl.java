@@ -39,6 +39,7 @@ public class StudentDaoImpl implements StudentDao{
 		// TODO Auto-generated method stub
 		
 		return session.getCurrentSession().createCriteria(Student.class).list();
+		
 	}
 
 	@Override
